@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Margins</title>
+    <style>
+        .container {
+
+            background-color: rgb(42, 42, 117);
+        }
+
+        .header {
+
+            background-color: rgb(42, 42, 171);
+
+            float: left;
+        }
+
+        .page {
+
+            color: white;
+            float: left;
+        }
+
+        .header-actions {
+
+            float: right;
+            margin-left: 1219px;
+
+
+        }
+
+        li {
+            float: left;
+        }
+
+        ul {
+            margin: 0;
+            list-style-type: none;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li a {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .body-contener {
+
+            background-color: silver;
+        }
+
+        .row1-cols1 {
+
+            float: left;
+            margin-right: 55%;
+        }
+
+        .row2-cols1 {
+            float: left;
+            margin-right: 53%;
+        }
+
+        .row3-cols1 {
+
+            float: left;
+            margin-right: 646px;
+        }
+
+        .img {
+
+            float: left;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="page">
+                <label for="">Page Setup</label>
+            </div>
+            <div class="header-actions">
+                <img src="cross2.jpg" alt="not exists" />
+
+                <img src="cross1.jpg" alt="not exists" />
+            </div>
+        </div>
+        <div class="body-contener">
+            <div class="body-sections">
+                <div class="menu">
+                    <ul>
+                        <li><a href="#Margins">Margins</a></li>
+                        <li><a href="#Paper">Paper</a></li>
+                        <li><a href="#Layout">Layout</a></li>
+                    </ul>
+                </div>
+                <div class="body-content">
+                    <div class="margins">
+                        <fieldset>
+                            <legend>Margins</legend>
+                            <div class="row1-cols1">
+                                <label for="top" accesskey="t"><u>T</u>op:</label>
+                                <select name="top" id="top">
+                                    <option value="">1"</option>
+                                </select>
+                            </div>
+                            <div class="row1-cols2">
+                                <label for="bottom" accesskey="b"><u>B</u>ottom:</label>
+                                <select name="bottom" id="bottom">
+                                    <option value="">1"</option>
+                                </select>
+                            </div>
+                            <div class="row2-cols1">
+                                <label for="left" accesskey="L"><u>L</u>eft:</label>
+                                <select name="left" id="left">
+                                    <option value="">1.25"</option>
+                                </select>
+                            </div>
+                            <div class="row2-cols2">
+                                <label for="right" accesskey="R"><u>R</u>ight:</label>
+                                <select name="right" id="right">
+                                    <option value="">1.25"</option>
+                                </select>
+                            </div>
+                            <div class="row3-cols1">
+                                <label for="gutter" accesskey="g"><u>G</u>utter:</label>
+                                <select name="gutter" id="gutter">
+                                    <option value="">0"</option>
+                                </select>
+                            </div>
+                            <div class="row3-cols2">
+                                <label for="gutter-position" accesskey="G"><u>G</u>utter position:</label>
+                                <select name="gutter-position" id="gutter-position">
+                                    <option value="">left</option>
+                                </select>
+                            </div>
+                        </fieldset>
+                    </div>
+                    <div class="orientation">
+                        <fieldset>
+                            <legend>Orientation</legend>
+                            <div class="img">
+                                <div>
+                                    <img src="wd02_pgesudb.jpg" alt="not exists" id="portrait" />
+
+                                    <label for="portrait" accesskey="P"><u>P</u>ortrait</label>
+                                </div>
+                                <div>
+                                    <img src="wd04_pgesudb.jpg" alt="not exists" />
+
+                                    <label for="landscape" accesskey="s">Lands<u>c</u>ape</label>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </div>
+                    <div class="pagea">
+                        <fieldset>
+                            <legend>Page</legend>
+                            <div>
+                                <label for="multiple" accesskey="M"><u>M</u>ultiple pages:</label>
+                            </div>
+                            <div>
+                                <select name="multiple" id="multiple">
+                                    <option value="">Normal</option>
+                                </select>
+                            </div>
+                        </fieldset>
+                    </div>
+                    <div class="preview">
+                        <fieldset>
+                            <legend>Preview</legend>
+                            <div>
+                                <label for="whole" accesskey="y">Appl<u>y</u> to:</label>
+                            </div>
+                            <div>
+                                <select name="whole" id="whole">
+                                    <option value="">Whole document</option>
+                                </select>
+                            </div>
+                            <div>
+                                <img src="wd03_pgesudb.jpg" alt="not exists" />
+                            </div>
+                        </fieldset>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div>
+                    <input type="button" value="Defoult" />
+                </div>
+                <div>
+                    <input type="button" value="OK" />
+                </div>
+                <div>
+                    <input type="button" value="Cancel" />
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

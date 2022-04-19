@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Page Setup Content Page</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div>
+                <label for="">Page Setup</label>
+            </div>
+            <div>
+                <img src="cross2.jpg" alt="not exists" />
+                <img src="cross1.jpg" alt="not exists" />
+            </div>
+        </div>
+        <div class="content">
+            <div class="menu">
+                <ul>
+                    <li>Page</li>
+                    <li>Margins</li>
+                    <li>Header/Footer</li>
+                    <li>Sheet</li>
+                </ul>
+            </div>
+            <div class="body-conteint">
+                <div class="bodyparts-item">
+                    <div class="orientation-section">
+                        <fieldset>
+                            <legend>Orientation</legend>
+                            <div class="orientation">
+                                <input type="radio" name="orientation" id="orientations" />
+                                <label for="orientations" accesskey="t">Pot<u>t</u>rait</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="orientation" id="orient" />
+                                <label for="orient" accesskey="L"><u>L</u>nadscape</label>
+                            </div>
+                        </fieldset>
+                    </div>
+                    <div class="scaling">
+                        <fieldset>
+                            <legend>Scaling</legend>
+                            <div>
+                                <input type="radio" name="adjust" id="adjust" />
+                                <label for="adjust" accesskey="A"><u>A</u>djust to:</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="adjust" id="fit" />
+                                <label for="fit" accesskey="F"><u>F</u>itto:</label>
+                            </div>
+                            <div>
+                                <input type="number" name="adjust" id="normal" />
+                                <label for="normal">% normal size</label>
+                            </div>
+                            <div>
+                                <input type="number" name="page" id="page" />
+                                <label for="page">page(s)wide by</label>
+                            </div>
+                            <div>
+                                <input type="number" name="tall" id="tall" />
+                                <label for="tall">tall</label>
+                            </div>
+                        </fieldset>
+                    </div>
+                    <div class="">
+                        <fieldset>
+                            <div>
+                                <label for="z" accesskey="z">Paper si<u>z</u>e: </label>
+                                <select name="z" id="z">
+                                    <option value="">8.5*11"Letter</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label for="q">Print <u>q</u>uality</label>
+                                <select name="q" id="q">
+                                    <option value="">600 dpi</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label for="first">First page number:</label>
+                                <input type="text" name="first" id="first" value="Auto" />
+                            </div>
+                        </fieldset>
+                    </div>
+                </div>
+                <div class="print-area">
+                    <div>
+                        <input type="button" value="Print..." accesskey="p" />
+                    </div>
+                    <div>
+                        <input type="button" value="Print Preview" accesskey="w" />
+                    </div>
+                    <div>
+                        <input type="button" value="Options..." accesskey="o" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div>
+                <input type="button" value="OK">
+            </div>
+            <div>
+                <input type="button" value="Cancel" />
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saving Account Form</title>
+</head>
+ 
+<body>
+    <div class="container">
+        <div class="bank_use">
+            <h1>(For Bank use only)</h1>
+            <div class="bank_use content">
+                <fieldset>
+                    <legend>
+                        <label for="">For Bank use only</label>
+                    </legend>
+                    <div class="account_number">
+                        <label for="account_number">Account Number</label>
+                        <input type="number" name="account_number" id="account_number">
+                    </div>
+                    <div class="customer_id">
+                        <label for="customer_id">Customer ID No.</label>
+                        <input type="text" name="customer_id" id="customer_id">
+                    </div>
+                    <label for="">(To be filled by application only)</label>
+                    <div class="date">
+                        <label for="date">Date</label>
+                        <input type="date" name="date" id="date">
+                    </div>
+                    <div>
+                        <label for="">Please fill the form in BLOCK LETTERS eith black/blue Ink only and tick boxes
+                            where
+                            application. Do Not leave any field blank, instead mention Not application (N.A)
+                        </label>
+                    </div>
+                    <div>
+                        <label for="">I/We hereby request MUFG Bank,Ltd._______________Branch to open my/our Saving
+                            Account.
+                        </label>
+                    </div>
+                    <div class="denominated_currency">
+                        <label for="">Denominated Currency of the Account </label>
+                        <div class="inr">
+                            <input type="checkbox" name="inr" id="inr">
+                            <label for="inr">INR</label>
+                        </div>
+                        <div class="usd">
+                            <input type="checkbox" name="usd" id="usd">
+                            <label for="usd">USD</label>
+                        </div>
+                        <div class="euro">
+                            <input type="checkbox" name="euro" id="euro">
+                            <label for="euro">EURO</label>
+                        </div>
+                        <div class="jpy">
+
+                            <input type="checkbox" name="jpy" id="jpy">
+                            <label for="jpy">JPY</label>
+                        </div>
+                    </div>
+                    <div class="type_of_account">
+                        <label for="">Type of Account </label>
+                        <div class="resident">
+                            <input type="checkbox" name="resident" id="resident">
+                            <label for="resident">Resident</label>
+                        </div>
+                        <div class="nre">
+                            <input type="checkbox" name="nre" id="nre">
+                            <label for="nre">NRE</label>
+                        </div>
+                        <div class="nro">
+                            <input type="checkbox" name="nro" id="nro">
+                            <label for="nro">NRO</label>
+                        </div>
+                        <div class="blank">
+
+                            <input type="checkbox" name="blank" id="blank">
+                            <label for="blank">______________</label>
+                        </div>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+        <div class="details_of_account">
+            <fieldset>
+                <legend>
+                    Details of Account - Sole/First Application
+                </legend>
+                <div class="title">
+                    <label for="">1. Title</label>
+                    <div class="title_option">
+                        <input type="radio" name="title" id="mr">
+                        <label for="mr">Mr.</label>
+                        <input type="radio" name="title" id="mrs">
+                        <label for="mrs">Mrs.</label>
+                        <input type="radio" name="title" id="ms">
+                        <label for="ms">Ms.</label>
+                        <input type="radio" name="title" id="other_please">
+                        <label for="other_please">Others(please specify)______________</label>
+                    </div>
+                </div>
+                <div class="account_name">
+                    <label for="account_name">2. Account Name</label>
+                    <input type="text" name="account_name" id="account_name">
+                    <input type="text" name="account_name" id="account_name">
+                </div>
+                <div class="other_common_name">
+                    <label for="other_name">3. Other common names used/former name if any</label>
+                    <input type="text" name="other_name" id="other_name">
+                </div>
+                <div class="reason_for_using_other_name">
+                    <label for="reason">4. Reason for using other name
+                        __________________________________________________
+                    </label>
+                </div>
+                <div class="date_of_birth">
+                    <label for="date_of_birth">5. Date of Birth</label>
+                    <input type="date" name="date_of_birth" id="date_of_birth">
+                </div>
+                <div class="gender">
+                    <label for="">6. Gender</label>
+                    <input type="radio" name="gender" id="male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="female">
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="third_gender">
+                    <label for="third_gender">Third Gender</label>
+                </div>
+                <div class="nationality">
+                    <label for="">7. Nationality /
+                        Citizenship______________________________________________________________
+                    </label>
+                </div>
+                <div class="pan_number">
+                    <label for="">8. Pan Number </label>
+                    <input type="number" name="pan_number" id="pan_number">
+                </div>
+                <div class="minor_aacount">
+                    <label for="">9. Minor Account </label>
+                    <input type="radio" name="minor" id="yes">
+                    <label for="yes">Yes</label>
+                    <input type="radio" name="minor" id="no">
+                    <label for="no">No</label>
+                </div>
+                <div class="senior_citizen">
+                    <label for="">10. Senior Citizen</label>
+                    <input type="radio" name="senior_citizen" id="senior_yes">
+                    <label for="senior_yes">Yes</label>
+                    <input type="radio" name="senior_citizen" id="senior_no">
+                    <label for="senior_no">No</label>
+                </div>
+                <label for="">If yes. Name of Parent / Guardian
+                    _______________________________________________________________
+                </label>
+                <div class="relationship">
+                    <label for="">Relationship with minor </label>
+                    <input type="radio" name="relationship" id="father">
+                    <label for="father">Father</label>
+                    <input type="radio" name="relationship" id="mother">
+                    <label for="mother">Mother</label>
+                    <input type="radio" name="relationship" id="court_order">
+                    <label for="court_order">As per Court Order </label>
+                    <input type="radio" name="relationship" id="other_relationship">
+                    <label for="other_relationship">Other_____________________________</label>
+                </div>
+            </fieldset>
+        </div>
+        <div class="communication_details">
+            <fieldset>
+                <legend>11. Communication Details </legend>
+                <div class="permanent_address">
+                    <label for="permanent_address">Permanent Address/Residential Address</label>
+                    <input type="text" name="permanent_address" id="permanent_address">
+                </div>
+                <div class="city">
+                    <label for="city">City</label>
+                    <input type="text" name="city" id="city">
+                </div>
+                <div class="state">
+                    <label for="state">State</label>
+                    <input type="text" name="state" id="state">
+                </div>
+                <div class="pin_code">
+                    <label for="pin_code">Pin Code / Zip Code</label>
+                    <input type="number" name="pin_code" id="pin_code">
+                </div>
+                <div class="country">
+                    <label for="country">Country</label>
+                    <input type="text" name="country" id="country">
+                </div>
+                <div class="tel_residence">
+                    <label for="tel_residence">Tel: Residence (with STD Code)</label>
+                    <input type="text" name="tel_residence" id="tel_residence">
+                </div>
+                <div class="correspondence_address">
+                    <label for="correspondence_address">Correspondence/Mailling Address</label>
+                    <input type="text" name="correspondence_address" id="correspondence_address">
+                </div>
+                <div class="correspondence_city">
+                    <label for="correspondence_city"> City</label>
+                    <input type="text" name="correspondence_city" id="correspondence_city">
+                </div>
+                <div class="correspondence_state">
+                    <label for="correspondence_state">State</label>
+                    <input type="text" name="correspondence_state" id="correspondence_state">
+                </div>
+                <div class="correspondence_pin_code">
+                    <label for="correspondence_pin_code"> Pin Code / Zip Code</label>
+                    <input type="text" name="correspondence_pin_code" id="correspondence_pin_code">
+                </div>
+                <div class="contact_details">
+                    <label for="">Contact Details</label>
+                    <label for="contact_mobile">Mobile</label>
+                    <input type="number" name="contact_mobile" id="contact_mobile">
+                </div>
+                <div class="contact_tel1">
+                    <label for="contact_tel1">Tel: Residence (with STD Code)</label>
+                    <input type="text" name="contact_tel1" id="contact_tel1">
+                </div>
+                <div class="contact_tel2">
+                    <label for="contact_tel2">Tel: Residence (with STD Code)</label>
+                    <input type="text" name="contact_tel2" id="contact_tel2">
+                </div>
+                <div class="contact_fax">
+                    <label for="contact_fax">Fax: (with std Code)</label>
+                    <input type="text" name="contact_fax" id="contact_fax">
+                </div>
+                <div class="contact_email">
+                    <label for="contact_email">Email</label>
+                    <input type="email" name="contact_email" id="contact_email">
+                </div>
+            </fieldset>
+        </div>
+    </div>
+</body>
+
+</html>

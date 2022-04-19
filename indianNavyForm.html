@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>indiannavy form</title>
+    <style>
+        .footer {
+
+            float: left;
+            margin: 30px 10px;
+            padding: 10px;
+        }
+
+        .container {
+
+            background-color: rgb(3, 3, 56);
+            color: white;
+            height: 700px;
+        }
+
+        .header {
+
+            font-size: 50px;
+            padding: 20px;
+        }
+
+        .notes {
+
+            font-size: 30px;
+        }
+
+        .body-sections{
+
+            background-color: rgb(6, 6, 90);
+            padding: 20px;
+        }
+
+        .row1-cols1 {
+            /* float: left; */
+            margin-right: 40%;
+            
+        }
+        label{display: block;}
+        .row2-cols1 {
+
+            float: left;
+            margin-right: 40%;
+        }
+
+        .row3-cols1 {
+
+            float: left;
+            margin-right: 40%;
+        }
+
+        .row4-cols1 {
+
+            float: left;
+            margin-right: 40%;
+        }
+
+        .row5-cols1 {
+
+            float: left;
+            margin-right: 40%;
+        }
+
+        .row6-cols1 {
+
+            float: left;
+            margin-right: 40%;
+        }
+        /* .rows-colomn{
+
+            float: left;
+        } */
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div>
+                <label for="">REGISTER</label>
+            </div>
+            <div class="notes">
+                <label for="">If you already have an account you can <a href="Log in">Log in</a> here.</label>
+            </div>
+        </div>
+        <div class="body-sections">
+            <div class="PERSONAL-DETAILS">
+                <fieldset>
+                    <legend>PERSONAL DETAILS</legend>
+
+                    <div class="rows-colomn">
+                        <div class="row1-cols1">
+                            <label for="fname">First name*</label>
+                            <input type="text" name="fname" id="fname" />
+                        </div>
+
+                        <div class="row1-cols2">
+                            <label for="mname">Middle name</label>
+                            <input type="text" name="mname" id="mname" />
+                        </div>
+                        <div class="row2-cols1">
+                            <label for="lname">Last name</label>
+                            <input type="text" name="lname" id="lname" />
+                        </div>
+                        <div class="row2-cols2">
+                            <label for="m">Mobile No*</label>
+                            <input type="text" name="m" id="m" />
+                        </div>
+                        <div class="row3-cols1">
+                            <label for="fmname"> Father/Mother Name *</label>
+                            <input type="text" name="fmname" id="fmname" />
+                        </div>
+                        <div class="row3-cols2">
+                            <label for="gname"> Guardian Name</label>
+                            <input type="text" name="gname" id="gname" />
+                        </div>
+                        <div class="row4-cols1">
+                            <label for="pan"> PAN Card</label>
+                            <input type="text" name="pan" id="pan" />
+                        </div>
+                        <div class="row4-cols2">
+                            <label for="date"> Date of Birth *</label>
+                            <input type="date" name="date" id="date" />
+                        </div>
+                        <div class="row5-cols1">
+                            <label for="nationality"> Nationality *</label>
+                            <select name="nationality" id="nationality">
+                                <option value="">Please Select</option>
+                                <option value="">Indian</option>
+                                <option value="">Nepalese</option>
+                                <option value="">Bhutanis</option>
+                            </select>
+                        </div>
+                        <div class="row5-cols2">
+                            <label for="domicile"> Domicile *</label>
+                            <select name="domicile" id="domicile">
+                                <option value="">Please Select</option>
+                                <option value="">Andhra Pradesh</option>
+                                <option value="">Arunachal Pradesh</option>
+                                <option value="">Assam</option>
+                                <option value="">Bihar</option>
+                                <option value="">Chhattisgarh</option>
+                                <option value="">Goa</option>
+                                <option value="">Gujarat</option>
+                                <option value=""> Hariyana</option>
+                                <option value="">Himachal Pradesh</option>
+                                <option value="">Jharkhand</option>
+                                <option value="">Karnataka</option>
+                                <option value="">Kerala</option>
+                                <option value="">Madhya Pradesh</option>
+                                <option value=""> Maharastra</option>
+                                <option value="">Manipur</option>
+                                <option value="">Meghalaya</option>
+                                <option value="">Mizoram</option>
+                                <option value="">Nagaland</option>
+                                <option value=""> Udisa</option>
+                                <option value="">Punjab</option>
+                                <option value="">Rajasthan</option>
+                                <option value="">Sikkim</option>
+                                <option value="">Tamil Nadu</option>
+                                <option value="">Telangana</option>
+                                <option value="">Tripura</option>
+                                <option value="">Uttar Pradesh</option>
+                                <option value="">Uttarakhand</option>
+                                <option value="">Paschim (West) Bengal</option>
+                            </select>
+                        </div>
+                        <div class="row5-cols1">
+                            <label for="Gender">Gender *</label>
+                            <input type="radio" name="Gender" id="Gender" />
+                            <label for="Gender">Male</label>
+                            <input type="radio" name="Gender" id="Gender2" />
+                            <label for="Gender2">Female</label>
+                        </div>
+                        <div class="row5-cols2">
+                            <label for="Married"> Marital Status *</label>
+                            <input type="radio" name="Married" id="Married" />
+                            <label for="Married">Married</label>
+                            <input type="radio" name="Married" id="Single" />
+                            <label for="Single">Single</label>
+                        </div>
+                        <div class="row6-cols1">
+                            <label for="Identification1">Identification Mark 1 *</label>
+                            <input type="text" name="Identification1" id="Identification1" />
+                        </div>
+                        <div class="row6-cols2">
+                            <label for="Identification2">Identification Mark 2</label>
+                            <input type="text" name="Identification2" id="Identification2" />
+                        </div>
+                    </div>
+                </fieldset>
+            </div>
+            <div class="EDUCATIONAL-DETAILS">
+                <fieldset>
+                    <legend>EDUCATIONAL DETAIL</legend>
+                    <div class="note">
+                        <label for="">NOTE: Final year student of B.E/B.Tech should select B.E/B.Tech</label>
+                    </div>
+                    <div class="row1-cols1">
+                        <label for="Highest-Qualification">Highest Qualification *</label>
+                        <select name="Highest-Qualification" id="Highest-Qualification">
+                            <option value="">Please Select</option>
+                            <option value="">10th</option>
+                            <option value="">12th Commerce/Humanity/Diploma in Science</option>
+                            <option value="">12th Science</option>
+                            <option value="">9th</option>
+                            <option value="">any Other Post Draduate Degree</option>
+                            <option value="">B.Arch</option>
+                            <option value="">B.Com</option>
+                            <option value="">B.E</option>
+                            <option value="">B.PEd</option>
+                            <option value="">B.Sc</option>
+                            <option value="">B.Tech</option>
+                            <option value="">B.voc</option>
+                            <option value="">BA</option>
+                            <option value="">Bachelor Of Pharmacy (B.PHARM)</option>
+                            <option value="">BBA</option>
+                            <option value="">BBM</option>
+                            <option value="">BCA</option>
+                            <option value="">BS</option>
+                            <option value="">Diploma in Engineering</option>
+                            <option value="">LLB</option>
+                            <option value="">M.Com</option>
+                            <option value="">M.E</option>
+                            <option value="">M.Ed</option>
+                            <option value="">M.PEd</option>
+                            <option value="">M.Sc</option>
+                            <option value="">M.Tech</option>
+                            <option value="">MA</option>
+                            <option value="">MBA</option>
+                            <option value="">MCA</option>
+                        </select>
+                    </div>
+                    <div class="row1-cols2">
+                        <label for="Additional-Qualification">Additional Qualification</label>
+                        <select name="Additional-Qualification" id="Additional-Qualification">
+                            <option value="">Please Select</option>
+                            <option value="">B.Sc/BCA with Computer</option>
+                            <option value="">Science/Information Technology</option>
+                            <option value="">Math in B.sc</option>
+                            <option value="">Physics in B.sc</option>
+                            <option value="">Post Graduate Diploma (Finance)</option>
+                            <option value="">Post Graduate Diploma (Logistics)</option>
+                            <option value="">Post Graduate Diploma (Material Management)</option>
+                            <option value="">Post Graduate Diploma (Supply Chain Management)</option>
+                        </select>
+                    </div>
+                </fieldset>
+            </div>
+            <div class="ACCOUNT-DETAILS">
+                <fieldset>
+                    <legend>ACCOUNT DETAILS</legend>
+                    <div class="row1-cols1">
+                        <label for="email">Email ID *</label>
+                        <input type="email" name="email" id="email" />
+                    </div>
+                    <div class="row1-cols2">
+                        <label for="passw">Password *</label>
+                        <input type="password" name="passw" id="passw" required />
+                    </div>
+                    <div class="row2-cols1">
+                        <label for="confirm">Confirm Password *</label>
+                        <input type="password" name="confirm" id="confirm" required />
+                    </div>
+                </fieldset>
+                <div>
+                    <label for="">SUBSCRIBE TO ENTRY ALERTS</label>
+                    <div>
+                        <input type="checkbox" name="checkbox1" id="checkbox1" />
+                        <label for="checkbox1">I agree to subscribe to alerts for entry Openings</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="checkbox2" id="checkbox2" />
+                        <label for="checkbox2">I agree to terms and conditions.
+                            <a href="Click Here">Click Here</a></label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div>
+                <input type="button" value="Save" />
+
+                <input type="button" value="Cancel">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

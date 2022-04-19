@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>msOffice2003_PageSetup</title>
+    <style>
+        .list-item {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        .list-item li {
+            padding: 7px;
+            border: 1px solid;
+
+        }
+
+        .page-content {
+            border: 1px solid;
+            padding: 10px;
+            background-color: #fff;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .body-sections {
+            background-color: aliceblue;
+            padding: 20px;
+        }
+
+        .header {
+            background-color: blue;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+        }
+
+        .footer {
+            display: flex;
+            justify-content: end;
+            background-color: blue;
+        }
+        button{
+            margin: 10px;
+        }
+        .bodypart-printing{
+
+            display: flex;
+            justify-content: end;
+        }
+        .container{
+            width: 650px;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="heder-title">
+                <label for="">Page Setup</label>
+            </div>
+            <div class="header-actions">
+                <img src="cross2.jpg" alt="" />
+                <img src="cross1.jpg" alt="" />
+            </div>
+        </div>
+
+        <div class="body-sections">
+            <div class="menu">
+                <ul class="list-item">
+                    <li>Page</li>
+                    <li>Margins</li>
+                    <li>Header/Footer</li>
+                    <li>Sheet</li>
+                </ul>
+            </div>
+            <div class="page-content">
+                <div class="bodyparts-item">
+                    <div class="print-area">
+                        <label for="print-area">Print <u>a</u>reas</label>
+                        <input type="text" name="print-area" id="print-area" accesskey="a">
+                    </div>
+                    <div class="print-titles">
+                        <fieldset>
+                            <legend>Print title</legend>
+                            <div>
+                                <label for="rows" accesskey="R"><u>R</u>ows to repeat at top:</label>
+                                <input type="text" name="rows" id="rows">
+                            </div>
+                            <div>
+                                <label for="column" accesskey="C"><u>C</u>Columns to repeat at left:</label>
+                                <input type="text" name="column" id="column">
+                            </div>
+                        </fieldset>
+                    </div>
+                    <div>
+                        <fieldset>
+                            <legend>Print</legend>
+                            <div>
+                                <div>
+                                    <input type="checkbox" name="dridline" id="dridline"><label for="dridline"
+                                        accesskey="G"><u>G</u>ridlines</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" name="Row" id="Row"><label for="Row" accesskey="l">Row and
+                                        co<u>l</u>
+                                        headings</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" name="block" id="block"><label for="block"
+                                        accesskey="B"><u>B</u>lack and
+                                        white</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" name="Draft" id="Draft"><label for="Draft"
+                                        accesskey="q">Draft
+                                        <u>q</u>uality</label>
+                                </div>
+                                <div>
+                                    <label for="comment" accesskey="m">Co<u>m</u>ments:</label>
+                                    <select name="comment" id="comment">
+                                        <option value="">(None)</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label for="cell" accesskey="e">Cell<u>e</u>rrors as:</label>
+                                    <select name="cell" id="cell">
+                                        <option value="">displayed</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </div>
+                    <div>
+                        <fieldset>
+                            <legend>Page order</legend>
+                            <div>
+                                <input type="radio" name="over" id="down" />
+                                <label for="down" accesskey="D">
+                                    <u>D</u>own,
+                                    then over
+                                </label>
+                                <input type="radio" name="over" id="overs"><label for="overs" accesskey="v">O<u>v</u>er,
+                                    then down</label>
+                            </div>
+                            <div class="img">
+                                <img src="note2.jpg" alt="">
+                            </div>
+                        </fieldset>
+                    </div>
+                </div>
+                <div class="bodypart-printing">
+                    <div class="printarea">
+                        <div>
+                       <button> <label for="" accesskey="P"><u>P</u>rint...</label></button>
+                       </div>
+                       <div>
+                       <button><label for="" accesskey="w">Print Previe<u>w</u></label></button>
+                       </div>
+                       <div> 
+                       <button><label for="" accesskey="O"><u>O</u>ptions...</label></button>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div>
+                <button><label for="">OK</label></button>
+            </div>
+            <div>
+                <button><label for="">Cancel</label></button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
