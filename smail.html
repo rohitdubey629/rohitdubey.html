@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smail Creat</title>
+</head>
+<body onload="smail();">
+    <center>
+        <canvas id="iics" height="500" width="500" style="border:solid">
+
+        </canvas>
+    </center>
+</body>
+<script>
+function smail(){
+
+    var canvas = document.getElementById("iics");
+    var ctx = canvas.getContext("2d");
+
+
+
+    ctx.beginPath();
+    ctx.moveTo(250,250);
+    ctx.arc(250,250,100,0,(360*3.14)/180);
+    ctx.fillStyle="yellow";
+    ctx.closePath();
+    ctx.fill();
+
+   
+
+    ctx.beginPath();
+    ctx.moveTo(250,250);
+    ctx.arc(250,275,50,0,(360*3.14)/180);
+    ctx.fillStyle="red";
+    ctx.closePath();
+    ctx.fill();
+
+    ctx.beginPath();
+    ctx.moveTo(250,250);
+    ctx.arc(250,250,60,0,(360*3.14)/180);
+    ctx.fillStyle="yellow";
+    ctx.closePath();
+    ctx.fill();
+
+    ctx.beginPath();
+    ctx.moveTo(250,250);
+    ctx.arc(200,220,20,0,(360*3.14)/180);
+    ctx.fillStyle="black";
+    ctx.closePath();
+    ctx.fill();
+
+    ctx.beginPath();
+    ctx.moveTo(250,250);
+    ctx.arc(300,220,20,0,(360*3.14)/180);
+    ctx.fillStyle="black";
+    ctx.closePath();
+    ctx.fill();
+
+    ctx.beginPath();
+    ctx.moveTo(250,250);
+    ctx.arc(200,220,20,0,(360*3.14)/180);
+    ctx.fillStyle="black";
+    ctx.closePath();
+    ctx.fill();
+
+    ctx.beginPath();
+    ctx.moveTo(250,300);
+    ctx.lineTo(230,320);
+    ctx.fillStyle="black";
+    ctx.closePath();
+    ctx.fill();
+    ctx.stroke();
+}
+</script>
+</html>
