@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Flag</title>
+</head>
+
+<body onload="flag();">
+    <center>
+        <canvas id="iics" height="500" width="500" style="border:solid;"></canvas>
+    </center>
+</body>
+<script>
+function flag(){
+
+    var canvas = document.getElementById("iics");
+    var ctx = canvas.getContext("2d");
+    
+    //orenge color top
+    ctx.beginPath();   
+    ctx.moveTo(100,100);
+    ctx.lineTo(300,100);
+    ctx.lineTo(300,150);
+    ctx.lineTo(100,150);
+    ctx.fillStyle="#ff9933";
+    ctx.closePath();
+    ctx.fill();
+    ctx.stroke();
+
+    //white color middle
+    ctx.beginPath();   
+    ctx.moveTo(100,150);
+    ctx.lineTo(300,150);
+    ctx.lineTo(300,200);
+    ctx.lineTo(100,200);
+    ctx.lineTo(100,150);
+    ctx.fillStyle="#ffffff";
+    ctx.closePath();
+    ctx.fill();
+    ctx.stroke();
+    //shokechakra
+      ctx.beginPath();
+    ctx.arc(200,175,25,0,(369*3.14)/180);
+        ctx.closePath();
+        ctx.fill();
+        ctx.stroke();
+    //green color bottom
+    ctx.beginPath();   
+    ctx.moveTo(100,200);
+    ctx.lineTo(300,200);
+    ctx.lineTo(300,250);
+    ctx.lineTo(100,250);
+    ctx.fillStyle="#138808";
+    ctx.closePath();
+    ctx.fill();
+    ctx.stroke();
+    ctx.beginPath();
+    ctx.moveTo(100,60);
+    ctx.lineTo(100,400);
+    ctx.lineWidth="7";
+    ctx.closePath();
+    ctx.stroke();
+
+    ctx.beginPath();
+    ctx.moveTo(100,60);
+    ctx.arc(100,60,13,0,(360*3.14)/180);
+    ctx.fillStyle="black";
+    ctx.closePath();
+    ctx.fill();
+
+    ctx.beginPath();
+    ctx.moveTo(100,60);
+    ctx.arc(100,43,10,0,(360*3.14)/180);
+    ctx.fillStyle="black";
+    ctx.closePath();
+    ctx.fill();
+
+    ctx.beginPath();
+    ctx.moveTo(50,400);
+    ctx.lineTo(150,400);
+    ctx.lineTo(150,420);
+    ctx.lineTo(50,420);
+    ctx.closePath();
+    ctx.stroke();
+
+    ctx.beginPath();
+    ctx.moveTo(25,420);
+    ctx.lineTo(175,420);
+    ctx.lineTo(175,440);
+    ctx.lineTo(25,440);
+    ctx.closePath();
+    ctx.stroke();
+
+     for(var i=1;i<=24;i++){
+
+        ctx.beginPath();
+        ctx.moveTo(200, 175);
+        ctx.lineWidth="2";
+        // ctx.lineTo(200 + 50+3.14.sin(i), 200 + 50+3.14.cos(i));
+        // ctx.strokeStyle="#000080";
+        ctx.lineTo(200,200);     
+        ctx.closePath();
+        ctx.stroke();
+     }
+     ctx.beginPath();
+        ctx.moveTo(200, 175);
+        ctx.lineWidth="2";
+        ctx.lineTo(205,200);     
+        ctx.closePath();
+        ctx.stroke();
+        ctx.beginPath();
+        ctx.moveTo(200, 175);
+        ctx.lineWidth="2";
+        ctx.lineTo(210,197);     
+        ctx.closePath();
+        ctx.stroke();
+        ctx.beginPath();
+        ctx.moveTo(200, 175);
+        ctx.lineWidth="2";
+        ctx.lineTo(215,195);     
+        ctx.closePath();
+        ctx.stroke();
+        ctx.beginPath();
+        ctx.moveTo(200, 175);
+        ctx.lineWidth="2";
+        ctx.lineTo(220,191);     
+        ctx.closePath();
+        ctx.stroke();
+        ctx.beginPath();
+        ctx.moveTo(200, 175);
+        ctx.lineWidth="2";
+        ctx.lineTo(223,185);     
+        ctx.closePath();
+        ctx.stroke();
+        ctx.beginPath();
+        ctx.moveTo(200, 175);
+        ctx.lineWidth="2";
+        ctx.lineTo(226,178);     
+        ctx.closePath();
+        ctx.stroke();
+        ctx.beginPath();
+        ctx.moveTo(200, 175);
+        ctx.lineWidth="2";
+        ctx.lineTo(226,170);     
+        ctx.closePath();
+        ctx.stroke();
+        ctx.beginPath();
+        ctx.moveTo(200, 175);
+        ctx.lineWidth="2";
+        ctx.lineTo(223,162);     
+        ctx.closePath();
+        ctx.stroke();
+        ctx.beginPath();
+        ctx.moveTo(200, 175);
+        ctx.lineWidth="2";
+        ctx.lineTo(215,156);     
+        ctx.closePath();
+        ctx.stroke();
+        ctx.beginPath();
+        ctx.moveTo(200, 175);
+        ctx.lineWidth="2";
+        ctx.lineTo(210,152);     
+        ctx.closePath();
+        ctx.stroke();
+        ctx.beginPath();
+        ctx.moveTo(200, 175);
+        ctx.lineWidth="2";
+        ctx.lineTo(203,150);     
+        ctx.closePath();
+        ctx.stroke();
+    //left
+        ctx.beginPath();
+        ctx.moveTo(200, 175);
+        ctx.lineWidth="2";
+        ctx.lineTo(195,200);     
+        ctx.closePath();
+        ctx.stroke();
+        ctx.beginPath();
+        ctx.moveTo(200, 175);
+        ctx.lineWidth="2";
+        ctx.lineTo(190,197);     
+        ctx.closePath();
+        ctx.stroke();
+        ctx.beginPath();
+        ctx.moveTo(200, 175);
+        ctx.lineWidth="2";
+        ctx.lineTo(185,195);     
+        ctx.closePath();
+        ctx.stroke();
+        ctx.beginPath();
+        ctx.moveTo(200, 175);
+        ctx.lineWidth="2";
+        ctx.lineTo(180,191);     
+        ctx.closePath();
+        ctx.stroke();
+        ctx.beginPath();
+        ctx.moveTo(200, 175);
+        ctx.lineWidth="2";
+        ctx.lineTo(176,185);     
+        ctx.closePath();
+        ctx.stroke();
+        ctx.beginPath();
+        ctx.moveTo(200, 175);
+        ctx.lineWidth="2";
+        ctx.lineTo(176,178);     
+        ctx.closePath();
+        ctx.stroke();
+        ctx.beginPath();
+        ctx.moveTo(200, 175);
+        ctx.lineWidth="2";
+        ctx.lineTo(176,170);     
+        ctx.closePath();
+        ctx.stroke();
+        ctx.beginPath();
+        ctx.moveTo(200, 175);
+        ctx.lineWidth="2";
+        ctx.lineTo(179,162);     
+        ctx.closePath();
+        ctx.stroke();
+        ctx.beginPath();
+        ctx.moveTo(200, 175);
+        ctx.lineWidth="2";
+        ctx.lineTo(183,156);     
+        ctx.closePath();
+        ctx.stroke();
+        ctx.beginPath();
+        ctx.moveTo(200, 175);
+        ctx.lineWidth="2";
+        ctx.lineTo(189,154);     
+        ctx.closePath();
+        ctx.stroke();
+        ctx.beginPath();
+        ctx.moveTo(200, 175);
+        ctx.lineWidth="2";
+        ctx.lineTo(195,150);     
+        ctx.closePath();
+        ctx.stroke();
+    }
+
+</script>
+
+</html>
