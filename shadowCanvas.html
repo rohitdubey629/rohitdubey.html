@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas Shadow in html</title>
+</head>
+<body onload="shadow();">
+    <center>
+        <canvas id="iics" height="600" width="800" style="border: solid;">
+       
+        </canvas>
+    </center>
+</body>
+<script>
+    function shadow(){
+
+        var canvas = document.getElementById("iics");
+        var ctx = canvas.getContext("2d");
+
+        // ctx.beginPath();
+        // ctx.moveTo(50,50);
+
+        ctx.fillStyle="red";
+        ctx.font="bold 8em monospace";
+        ctx.shadowColor="orange";
+        ctx.shadowBlur="30";
+        ctx.shadowOffsetY="-20";
+        ctx.shadowOffsetX="-40";
+        ctx.fillText("iics college",50,200);
+        
+        
+ 
+
+    }
+</script>
+</html>
